@@ -1,0 +1,78 @@
+body{
+    width: 595px;
+    height: 842px;
+    background-color: rgb(221, 202, 31);
+    font-family: Arial;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.555);
+    margin: auto;
+    
+}
+header{
+    width: 595px;
+    height: 150px;
+    background-color: rgb(92, 87, 87);
+}
+
+section{
+    height: 607px;
+    width: 200px;
+    background-color: rgb(92, 87, 87);
+    position: relative;
+    
+}
+section#direita{
+    background-color: rgb(238, 231, 231);
+    height: 692px;
+    width: 395px;
+    position:relative ;
+    left:200px;
+    bottom: 607px;
+    
+}
+footer{
+    background-color: rgb(224, 203, 15);
+    height: 85px;
+    width: 200px;
+    position: relative;
+    bottom: 692px;
+    
+}
+p{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    left: 14px;
+}
+img#perfil{
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border: 3px solid rgb(224, 203, 15);
+}
+div#linha{
+    height: 5px;
+    background-color: rgb(224, 203, 15);
+    
+}
+
+img#imghardskills{
+    width: 30px;
+    border: 10px solid white;
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+    margin-left: 1px;
+    z-index: 2;
+}
+div#hardskills{
+    background-color: white;
+    height: 32px;
+    width: 150px;
+    position: relative;
+    bottom: 39px;
+    left: 10px;
+    border-radius: 0 0 50px;
+    z-index: 1;
+}
