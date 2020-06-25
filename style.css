@@ -8,11 +8,35 @@ body{
     margin: auto;
     
 }
+div#global{
+    position: relative;
+    bottom: 18px;
+}
 header{
     width: 595px;
     height: 150px;
     background-color: rgb(92, 87, 87);
+    position: relative;
 }
+h1{
+font-size: 25px;
+position: relative;
+left: 195px;
+top: 15px;
+color: white;
+}
+div#dadosPessoais{
+    position: relative;
+    bottom: 113px;
+    left: 158px;
+    width: 350px;
+}
+div#email{
+    position: relative;
+    bottom: 15px;
+    left: 41px;
+}
+
 
 section{
     height: 607px;
@@ -28,7 +52,10 @@ section#direita{
     position:relative ;
     left:200px;
     bottom: 607px;
-    
+}
+div#corpo{
+    margin-left: 5px;
+    width: 380px;
 }
 footer{
     background-color: rgb(224, 203, 15);
@@ -38,17 +65,33 @@ footer{
     bottom: 692px;
     
 }
-p{
+div#contatosDigitais{
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+}
+img#linkedin{
+    margin-left: 7px;
+}
+p#sSkill{
     margin: auto;
     position: relative;
     text-align: center;
-    top: 5px;
+    top: 3px;
+    left: 14px;
+}
+p#hSkill{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 6px;
     left: 14px;
 }
 img#perfil{
+    position: relative;
+    bottom: 35px;
+    left: 30px;
     border-radius: 100px;
-    margin-top: 10px;
-    margin-left: 35px;
     border: 3px solid rgb(224, 203, 15);
 }
 div#linha{
@@ -170,7 +213,7 @@ div#softskills{
     background-color: white;
     height: 32px;
     width: 150px;
-    border-radius: 50px;
+    border-radius: 5px 5px 50px;
     margin-left: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
 }
@@ -234,7 +277,7 @@ div#barrasoft3-1{
     background-color: yellow;
     height: 5px;
     width: 120px;
-    border-radius: 10px 0;
+    border-radius: 10px;
 }
 div#barrasoft4{
     background-color: silver;
@@ -250,7 +293,7 @@ div#barrasoft4-1{
     background-color: yellow;
     height: 5px;
     width: 150px;
-    border-radius: 10px 0;
+    border-radius: 10px;
 }
 nav#soft{
     margin-top: 55px;
@@ -264,5 +307,4 @@ div#social{
     left: 23px;
     text-align: center;
     color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726)
 }
