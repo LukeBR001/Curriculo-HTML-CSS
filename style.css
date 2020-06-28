@@ -3,9 +3,10 @@ body{
     height: 842px;
     background-color: rgb(221, 202, 31);
     font-family: Arial;
-    border: 3px solid rgb(0, 0, 0);
+    border: 7px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.555);
     margin: auto;
+    margin-top: 30px;
     
 }
 div#global{
@@ -70,8 +71,20 @@ div#contatosDigitais{
     position: relative;
     bottom: 10px;
 }
+p.gitHub{
+    position: relative;
+    bottom: 33px;
+    left: 35px;
+}
 img#linkedin{
-    margin-left: 7px;
+    position: relative;
+    bottom: 30px;
+    left: 8px;
+}
+p.linkedin{
+    position: relative;
+    bottom: 62px;
+    left: 35px;
 }
 p#sSkill{
     margin: auto;
@@ -142,7 +155,7 @@ div#barrahtml5{
 div#barrahtml52{
     background-color: yellow;
     height: 5px;
-    width: 60px;
+    width: 50px;
     border-radius: 10px;
 }
 div#barracss{
@@ -174,7 +187,7 @@ div#barrajs{
 div#barrajs2{
     background-color: yellow;
     height: 5px;
-    width: 50px;
+    width: 58px;
     border-radius: 10px;
 }
 div#barragit{
