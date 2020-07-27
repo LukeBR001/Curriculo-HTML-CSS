@@ -48,7 +48,7 @@ section{
 }
 section#direita{
     background-color: rgb(238, 231, 231);
-    height: 692px;
+    height: 693px;
     width: 395px;
     position:relative ;
     left:200px;
@@ -155,7 +155,7 @@ div#barrahtml5{
 div#barrahtml52{
     background-color: yellow;
     height: 5px;
-    width: 50px;
+    width: 90px;
     border-radius: 10px;
 }
 div#barracss{
@@ -171,7 +171,7 @@ div#barracss{
 div#barracss2{
     background-color: yellow;
     height: 5px;
-    width: 40px;
+    width: 80px;
     border-radius: 10px;
 }
 div#barrajs{
@@ -187,7 +187,7 @@ div#barrajs{
 div#barrajs2{
     background-color: yellow;
     height: 5px;
-    width: 58px;
+    width: 75px;
     border-radius: 10px;
 }
 div#barragit{
@@ -203,7 +203,7 @@ div#barragit{
 div#barragit2{
     background-color: yellow;
     height: 5px;
-    width: 30px;
+    width: 55px;
     border-radius: 10px;
 }
 div#barralp{
@@ -219,7 +219,7 @@ div#barralp{
 div#barralp2{
     background-color: yellow;
     height: 5px;
-    width: 80px;
+    width: 85px;
     border-radius: 10px;
 }
 div#softskills{
